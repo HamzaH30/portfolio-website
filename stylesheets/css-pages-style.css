@@ -1,0 +1,45 @@
+/* External CSS */
+
+/* 
+    Colour Scheme: https://coolors.co/eae7dc-d8c3a5-8e8d8a-e98074-e85a4f
+    
+*/
+
+header {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  font-style: italic;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 
+  This is a class for styling the anchor tags in the navigation bar 
+
+  Adds 20 pixels of padding, has a red colour, a font size of 20 pixels, and no text decoration to remove 
+  the underscores.
+*/
+.nav-link {
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/*
+    Descendent selector making all the list elements in the nav links to be inline-blocks
+*/
+.nav-link li {
+  display: inline-block;
+}
