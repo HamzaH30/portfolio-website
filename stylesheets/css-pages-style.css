@@ -19,24 +19,26 @@ h3 {
   font-style: italic;
 }
 
-table {
+/* 
+  Ask Mr. Hardman about (1) why the bullet points aren't lined up, (2) why the shaftesbury row's bullet points are outside the cell?
+*/
+table,
+th,
+td {
   margin-left: auto;
   margin-right: auto;
-}
-
-th {
+  border: 1px solid black;
   text-align: center;
 }
 
 td {
-  text-align: center;
+  padding: 0px 5px;
 }
 
-/* TODO: Ask Mr. Hardman how the display: inline-block helps here. Stack Overflow: https://stackoverflow.com/a/54226211
 td ul {
   display: inline-block;
-  text-align: left;
   padding-left: 0px;
+  text-align: left;
 }
 
 /* 
